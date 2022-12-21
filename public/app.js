@@ -23754,10 +23754,10 @@ var require_react_jsx_runtime_development = __commonJS({
             return jsxWithValidation(type, props, key, false);
           }
         }
-        var jsx2 = jsxWithValidationDynamic;
+        var jsx3 = jsxWithValidationDynamic;
         var jsxs = jsxWithValidationStatic;
         exports.Fragment = REACT_FRAGMENT_TYPE;
-        exports.jsx = jsx2;
+        exports.jsx = jsx3;
         exports.jsxs = jsxs;
       })();
     }
@@ -23777,14 +23777,22 @@ var require_jsx_runtime = __commonJS({
 });
 
 // src/app.tsx
-var import_client = __toESM(require_client());
-var import_jsx_runtime = __toESM(require_jsx_runtime());
+var import_client = __toESM(require_client(), 1);
+
+// src/components/Message.tsx
+var import_jsx_runtime = __toESM(require_jsx_runtime(), 1);
+function Message(props) {
+  return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", { children: props.msg });
+}
+
+// src/app.tsx
+var import_jsx_runtime2 = __toESM(require_jsx_runtime(), 1);
 function App() {
-  return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", { children: "Hello World from tsreact-01 app!" });
+  return /* @__PURE__ */ (0, import_jsx_runtime2.jsx)(Message, { msg: "Hello!" });
 }
 var container = document.getElementById("app");
 var root = (0, import_client.createRoot)(container);
-root.render(/* @__PURE__ */ (0, import_jsx_runtime.jsx)(App, {}));
+root.render(/* @__PURE__ */ (0, import_jsx_runtime2.jsx)(App, {}));
 /**
  * @license React
  * react-dom.development.js

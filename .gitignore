@@ -1,3 +1,6 @@
+*.pem
+nohup.out
+
 # Logs
 logs
 *.log

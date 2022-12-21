@@ -1,5 +1,5 @@
 {
-  "name": "tsreact-01",
+  "name": "template-ts-react-mui",
   "version": "0.0.1",
   "description": "Typescript/React application",
   "main": "index.js",
@@ -20,13 +20,16 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.11.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "esbuild": "^0.15.12",
     "@types/react": "^18.0.22",
     "@types/react-dom": "^18.0.7",
+    "esbuild": "^0.15.12",
     "prettier": "^2.7.1"
   }
 }

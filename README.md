@@ -1,3 +1,13 @@
+### The Stack
+
+- Typescript
+- React
+- Styled Components
+- MUI
+- React Router
+- React Query
+- ESBuild
+
 ### Use
 
 #### Clone repo

@@ -53,3 +53,20 @@ npm run dev
 
 - prettier: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
 - vscode-styled-components: https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components
+
+### Potential approaches to try instead of 'Styled Components':
+
+- https://linaria.dev/
+- https://stitches.dev/
+- https://astroturfcss.github.io/astroturf/introduction/
+
+### Why try zero-runtime CSS-in-JS ?
+
+- Zero runtime
+- Great performance
+- Do everything at build time
+- Still retain great DX
+- Hopefully, better with TS/ESM compared to StyledComponents/Emotion
+- https://github.com/emotion-js/emotion/issues/2730
+- https://github.com/maddijoyce/emotion-esm-issue
+- See: https://punits.dev/blog/zero-runtime-css-in-js/

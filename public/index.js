@@ -2295,9 +2295,9 @@ var require_react_dom_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React3 = require_react();
+        var React4 = require_react();
         var Scheduler = require_scheduler();
-        var ReactSharedInternals = React3.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React4.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         var suppressWarning = false;
         function setSuppressWarning(newSuppressWarning) {
           {
@@ -3818,7 +3818,7 @@ var require_react_dom_development = __commonJS({
           {
             if (props.value == null) {
               if (typeof props.children === "object" && props.children !== null) {
-                React3.Children.forEach(props.children, function(child) {
+                React4.Children.forEach(props.children, function(child) {
                   if (child == null) {
                     return;
                   }
@@ -11979,7 +11979,7 @@ var require_react_dom_development = __commonJS({
           }
         }
         var fakeInternalInstance = {};
-        var emptyRefsObject = new React3.Component().refs;
+        var emptyRefsObject = new React4.Component().refs;
         var didWarnAboutStateAssignmentForComponent;
         var didWarnAboutUninitializedState;
         var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -22438,7 +22438,7 @@ var require_react_dom_development = __commonJS({
             unmarkContainerAsRoot(container2);
           }
         };
-        function createRoot2(container2, options2) {
+        function createRoot(container2, options2) {
           if (!isValidContainer(container2)) {
             throw new Error("createRoot(...): Target container is not a DOM element.");
           }
@@ -22797,7 +22797,7 @@ var require_react_dom_development = __commonJS({
               error('You are importing createRoot from "react-dom" which is not supported. You should instead import it from "react-dom/client".');
             }
           }
-          return createRoot2(container2, options2);
+          return createRoot(container2, options2);
         }
         function hydrateRoot$1(container2, initialChildren, options2) {
           {
@@ -23437,19 +23437,16 @@ var require_hoist_non_react_statics_cjs = __commonJS({
   }
 });
 
-// src/app.tsx
-var import_react3 = __toESM(require_react(), 1);
+// src/index.tsx
+var import_react4 = __toESM(require_react(), 1);
 var import_client = __toESM(require_client(), 1);
 
-// src/components/Message.tsx
-var import_react = __toESM(require_react(), 1);
-function Message(props) {
-  return /* @__PURE__ */ import_react.default.createElement("h3", null, props.msg);
-}
+// src/App.tsx
+var import_react3 = __toESM(require_react(), 1);
 
 // node_modules/styled-components/dist/styled-components.browser.esm.js
 var import_react_is = __toESM(require_react_is());
-var import_react2 = __toESM(require_react());
+var import_react = __toESM(require_react());
 var import_shallowequal = __toESM(require_shallowequal());
 
 // node_modules/@emotion/stylis/dist/stylis.browser.esm.js
@@ -24361,27 +24358,27 @@ function ce(e2) {
     return t3.name || j(15), te(e3, t3.name);
   }, 5381).toString() : "", m2;
 }
-var ue = import_react2.default.createContext();
+var ue = import_react.default.createContext();
 var le = ue.Consumer;
-var de = import_react2.default.createContext();
+var de = import_react.default.createContext();
 var he = (de.Consumer, new Z());
 var pe = ce();
 function fe() {
-  return (0, import_react2.useContext)(ue) || he;
+  return (0, import_react.useContext)(ue) || he;
 }
 function me() {
-  return (0, import_react2.useContext)(de) || pe;
+  return (0, import_react.useContext)(de) || pe;
 }
 function ye(e2) {
-  var t2 = (0, import_react2.useState)(e2.stylisPlugins), n2 = t2[0], s2 = t2[1], c2 = fe(), u2 = (0, import_react2.useMemo)(function() {
+  var t2 = (0, import_react.useState)(e2.stylisPlugins), n2 = t2[0], s2 = t2[1], c2 = fe(), u2 = (0, import_react.useMemo)(function() {
     var t3 = c2;
     return e2.sheet ? t3 = e2.sheet : e2.target && (t3 = t3.reconstructWithOptions({ target: e2.target }, false)), e2.disableCSSOMInjection && (t3 = t3.reconstructWithOptions({ useCSSOMInjection: false })), t3;
-  }, [e2.disableCSSOMInjection, e2.sheet, e2.target]), l2 = (0, import_react2.useMemo)(function() {
+  }, [e2.disableCSSOMInjection, e2.sheet, e2.target]), l2 = (0, import_react.useMemo)(function() {
     return ce({ options: { prefix: !e2.disableVendorPrefixes }, plugins: n2 });
   }, [e2.disableVendorPrefixes, n2]);
-  return (0, import_react2.useEffect)(function() {
+  return (0, import_react.useEffect)(function() {
     (0, import_shallowequal.default)(n2, e2.stylisPlugins) || s2(e2.stylisPlugins);
-  }, [e2.stylisPlugins]), import_react2.default.createElement(ue.Provider, { value: u2 }, import_react2.default.createElement(de.Provider, { value: l2 }, true ? import_react2.default.Children.only(e2.children) : e2.children));
+  }, [e2.stylisPlugins]), import_react.default.createElement(ue.Provider, { value: u2 }, import_react.default.createElement(de.Provider, { value: l2 }, true ? import_react.default.Children.only(e2.children) : e2.children));
 }
 var ve = function() {
   function e2(e3, t2) {
@@ -24457,7 +24454,7 @@ var Oe = function(e2, t2) {
             s2[i2 - 1] = arguments[i2];
           r2.apply(void 0, [e3].concat(s2));
         }
-      }, (0, import_react2.useRef)(), o2 && !Pe.has(n2) && (console.warn(n2), Pe.add(n2));
+      }, (0, import_react.useRef)(), o2 && !Pe.has(n2) && (console.warn(n2), Pe.add(n2));
     } catch (e3) {
       Ie.test(e3.message) && Pe.delete(n2);
     } finally {
@@ -24500,7 +24497,7 @@ function Me(e2) {
   }
   return e2;
 }
-var Ge = import_react2.default.createContext();
+var Ge = import_react.default.createContext();
 var Le = Ge.Consumer;
 var Ye = {};
 function qe(e2, t2, n2) {
@@ -24518,7 +24515,7 @@ function qe(e2, t2, n2) {
   var C, I2 = new se(n2, g2, o2 ? e2.componentStyle : void 0), P2 = I2.isStatic && 0 === c2.length, O = function(e3, t3) {
     return function(e4, t4, n3, r2) {
       var o3 = e4.attrs, i3 = e4.componentStyle, a3 = e4.defaultProps, c3 = e4.foldedComponentIds, d3 = e4.shouldForwardProp, h3 = e4.styledComponentId, p2 = e4.target;
-      (0, import_react2.useDebugValue)(h3);
+      (0, import_react.useDebugValue)(h3);
       var f2 = function(e5, t5, n4) {
         void 0 === e5 && (e5 = E);
         var r3 = v({}, t5, { theme: e5 }), o4 = {};
@@ -24527,16 +24524,16 @@ function qe(e2, t2, n2) {
           for (t6 in b(i4) && (i4 = i4(r3)), i4)
             r3[t6] = o4[t6] = "className" === t6 ? (n5 = o4[t6], s2 = i4[t6], n5 && s2 ? n5 + " " + s2 : n5 || s2) : i4[t6];
         }), [r3, o4];
-      }(Re(t4, (0, import_react2.useContext)(Ge), a3) || E, t4, o3), y2 = f2[0], g3 = f2[1], S3 = function(e5, t5, n4, r3) {
+      }(Re(t4, (0, import_react.useContext)(Ge), a3) || E, t4, o3), y2 = f2[0], g3 = f2[1], S3 = function(e5, t5, n4, r3) {
         var o4 = fe(), s2 = me(), i4 = t5 ? e5.generateAndInjectStyles(E, o4, s2) : e5.generateAndInjectStyles(n4, o4, s2);
-        return (0, import_react2.useDebugValue)(i4), !t5 && r3 && r3(i4), i4;
+        return (0, import_react.useDebugValue)(i4), !t5 && r3 && r3(i4), i4;
       }(i3, r2, y2, true ? e4.warnTooManyClasses : void 0), w2 = n3, _2 = g3.$as || t4.$as || g3.as || t4.as || p2, N2 = ke(_2), A3 = g3 !== t4 ? v({}, t4, {}, g3) : t4, C2 = {};
       for (var I3 in A3)
         "$" !== I3[0] && "as" !== I3 && ("forwardedAs" === I3 ? C2.as = A3[I3] : (d3 ? d3(I3, import_is_prop_valid.default, _2) : !N2 || (0, import_is_prop_valid.default)(I3)) && (C2[I3] = A3[I3]));
-      return t4.style && g3.style !== t4.style && (C2.style = v({}, t4.style, {}, g3.style)), C2.className = Array.prototype.concat(c3, h3, S3 !== h3 ? S3 : null, t4.className, g3.className).filter(Boolean).join(" "), C2.ref = w2, (0, import_react2.createElement)(_2, C2);
+      return t4.style && g3.style !== t4.style && (C2.style = v({}, t4.style, {}, g3.style)), C2.className = Array.prototype.concat(c3, h3, S3 !== h3 ? S3 : null, t4.className, g3.className).filter(Boolean).join(" "), C2.ref = w2, (0, import_react.createElement)(_2, C2);
     }(C, e3, t3, P2);
   };
-  return O.displayName = f, (C = import_react2.default.forwardRef(O)).attrs = S2, C.componentStyle = I2, C.displayName = f, C.shouldForwardProp = A2, C.foldedComponentIds = o2 ? Array.prototype.concat(e2.foldedComponentIds, e2.styledComponentId) : w, C.styledComponentId = g2, C.target = o2 ? e2.target : e2, C.withComponent = function(e3) {
+  return O.displayName = f, (C = import_react.default.forwardRef(O)).attrs = S2, C.componentStyle = I2, C.displayName = f, C.shouldForwardProp = A2, C.foldedComponentIds = o2 ? Array.prototype.concat(e2.foldedComponentIds, e2.styledComponentId) : w, C.styledComponentId = g2, C.target = o2 ? e2.target : e2, C.withComponent = function(e3) {
     var r2 = t2.componentId, o3 = function(e4, t3) {
       if (null == e4)
         return {};
@@ -24609,14 +24606,14 @@ var Je = function() {
       if (e3.sealed)
         return j(2);
       var n2 = ((t3 = {})[A] = "", t3["data-styled-version"] = "5.3.6", t3.dangerouslySetInnerHTML = { __html: e3.instance.toString() }, t3), o2 = q();
-      return o2 && (n2.nonce = o2), [import_react2.default.createElement("style", v({}, n2, { key: "sc-0-0" }))];
+      return o2 && (n2.nonce = o2), [import_react.default.createElement("style", v({}, n2, { key: "sc-0-0" }))];
     }, this.seal = function() {
       e3.sealed = true;
     }, this.instance = new Z({ isServer: true }), this.sealed = false;
   }
   var t2 = e2.prototype;
   return t2.collectStyles = function(e3) {
-    return this.sealed ? j(2) : import_react2.default.createElement(ye, { sheet: this.instance }, e3);
+    return this.sealed ? j(2) : import_react.default.createElement(ye, { sheet: this.instance }, e3);
   }, t2.interleaveWithNodeStream = function(e3) {
     return j(3);
   }, e2;
@@ -24624,7 +24621,7 @@ var Je = function() {
 "undefined" != typeof navigator && "ReactNative" === navigator.product && console.warn("It looks like you've imported 'styled-components' on React Native.\nPerhaps you're looking to import 'styled-components/native'?\nRead more about this at https://www.styled-components.com/docs/basics#react-native"), "undefined" != typeof window && (window["__styled-components-init__"] = window["__styled-components-init__"] || 0, 1 === window["__styled-components-init__"] && console.warn("It looks like there are several instances of 'styled-components' initialized in this application. This may cause dynamic styles to not render properly, errors during the rehydration process, a missing theme prop, and makes your application bigger without good reason.\n\nSee https://s-c.sh/2BAXzed for more info."), window["__styled-components-init__"] += 1);
 var styled_components_browser_esm_default = He;
 
-// src/app.tsx
+// src/components/Appdiv.tsx
 var Appdiv = styled_components_browser_esm_default.div`
     padding: 15px;
     margin-right: auto;
@@ -24641,12 +24638,22 @@ var Appdiv = styled_components_browser_esm_default.div`
         }
     }
 `;
-function App() {
-  return /* @__PURE__ */ import_react3.default.createElement(Appdiv, null, /* @__PURE__ */ import_react3.default.createElement("h1", null, "Hola!"), /* @__PURE__ */ import_react3.default.createElement("div", { className: "red" }, "test"), /* @__PURE__ */ import_react3.default.createElement(Message, { msg: "Hello!" }));
+
+// src/components/Message.tsx
+var import_react2 = __toESM(require_react(), 1);
+function Message(props) {
+  return /* @__PURE__ */ import_react2.default.createElement("h3", null, props.msg);
 }
+
+// src/App.tsx
+function App() {
+  return /* @__PURE__ */ import_react3.default.createElement(Appdiv, null, /* @__PURE__ */ import_react3.default.createElement("h1", null, "Hola!"), /* @__PURE__ */ import_react3.default.createElement("div", { className: "red" }, "gdhfgh"), /* @__PURE__ */ import_react3.default.createElement(Message, { msg: "Hello!" }));
+}
+
+// src/index.tsx
 var container = document.getElementById("app");
-var root = (0, import_client.createRoot)(container);
-root.render(/* @__PURE__ */ import_react3.default.createElement(App, null));
+var root = import_client.default.createRoot(container);
+root.render(/* @__PURE__ */ import_react4.default.createElement(App, null));
 /**
  * @license React
  * react-dom.development.js

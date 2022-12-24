@@ -2,16 +2,16 @@
   "name": "template-ts-react-mui",
   "version": "0.0.1",
   "description": "Typescript/React application",
-  "main": "index.js",
+  "main": "index.tsx",
   "type": "module",
   "scripts": {
     "format:check": "npx prettier src --check",
     "format:fix": "npx prettier src --write",
     "test": "node --test",
-    "build:watch": "npx esbuild src/app.tsx --bundle --outdir=public --format=esm --platform=browser --target=es2022 --watch",
-    "build": "npx esbuild src/app.tsx --bundle --outdir=public --format=esm --platform=browser --target=es2022",
-    "dev:esbuild": "npx esbuild src/app.tsx --bundle --outdir=public --format=esm --platform=browser --target=es2022  --serve=localhost:3000 --servedir=public",
-    "serve:esbuild": "npx esbuild --serve=localhost:3000 --servedir=public",
+    "build:watch": "esbuild src/index.tsx --bundle --outdir=public --format=esm --platform=browser --target=es2022 --watch",
+    "build": "esbuild src/index.tsx --bundle --outdir=public --format=esm --platform=browser --target=es2022",
+    "dev:esbuild": "esbuild src/index.tsx --bundle --outdir=public --format=esm --platform=browser --target=es2022  --serve=localhost:3000 --servedir=public",
+    "serve:esbuild": "esbuild --serve=localhost:3000 --servedir=public",
     "dev": "node serve.js",
     "serve": "node serve.js"
   },
@@ -36,6 +36,7 @@
     "dotenv": "^16.0.3",
     "esbuild": "^0.15.12",
     "prettier": "^2.7.1",
+    "react-refresh": "^0.14.0",
     "servor": "^4.0.2"
   }
 }

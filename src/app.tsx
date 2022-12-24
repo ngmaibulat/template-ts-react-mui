@@ -1,38 +1,13 @@
 import React from "react";
-import { createRoot } from "react-dom/client";
+import { Appdiv } from "./components/Appdiv.js";
 import { Message } from "./components/Message.jsx";
 
-import styled from "styled-components";
-
-import "./css/global.css";
-
-const Appdiv = styled.div`
-    padding: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    border: 1px solid black;
-    max-width: 50%;
-    color: yellowgreen;
-    background-color: aqua;
-
-    h1 {
-        color: red;
-        &:hover {
-            background-color: black;
-        }
-    }
-`;
-
-function App() {
+export default function App() {
     return (
         <Appdiv>
             <h1>Hola!</h1>
-            <div className="red">test</div>
+            <div className="red">gdhfgh</div>
             <Message msg="Hello!" />
         </Appdiv>
     );
 }
-
-const container = document.getElementById("app")!;
-const root = createRoot(container);
-root.render(<App />);

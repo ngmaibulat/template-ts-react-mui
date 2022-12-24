@@ -48,3 +48,8 @@ npm run dev
 - not HTTP, use HTTPS
 - not 127.0.0.1, use localhost. as the tls cert is issued for `localhost`
 - livereload should work fine, edit your files and see results without manual reload
+
+### VSCode extensions
+
+- prettier: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+- vscode-styled-components: https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components

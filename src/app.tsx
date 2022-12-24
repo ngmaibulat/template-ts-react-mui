@@ -2,12 +2,9 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import { Message } from "./components/Message.jsx";
 
-// import { styled } from "@mui/system";
-import styledpkg from "styled-components";
+import styled from "styled-components";
 
-// import styledpkg from "@emotion/styled";
-
-const styled = styledpkg.default;
+import "./css/global.css";
 
 const Appdiv = styled.div`
     padding: 15px;
@@ -30,6 +27,7 @@ function App() {
     return (
         <Appdiv>
             <h1>Hola!</h1>
+            <div className="red">test</div>
             <Message msg="Hello!" />
         </Appdiv>
     );

@@ -1,1 +1,0 @@
-- ext install vscode-styled-components

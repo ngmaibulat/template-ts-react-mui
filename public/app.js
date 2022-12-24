@@ -24625,7 +24625,7 @@ var Je = function() {
 var styled_components_browser_esm_default = He;
 
 // src/app.tsx
-var Appdiv = styled_components_browser_esm_default("div")`
+var Appdiv = styled_components_browser_esm_default.div`
     padding: 15px;
     margin-right: auto;
     margin-left: auto;
@@ -24642,7 +24642,7 @@ var Appdiv = styled_components_browser_esm_default("div")`
     }
 `;
 function App() {
-  return /* @__PURE__ */ import_react3.default.createElement(Appdiv, null, /* @__PURE__ */ import_react3.default.createElement("h1", null, "Hola!"), /* @__PURE__ */ import_react3.default.createElement(Message, { msg: "Hello!" }));
+  return /* @__PURE__ */ import_react3.default.createElement(Appdiv, null, /* @__PURE__ */ import_react3.default.createElement("h1", null, "Hola!"), /* @__PURE__ */ import_react3.default.createElement("div", { className: "red" }, "test"), /* @__PURE__ */ import_react3.default.createElement(Message, { msg: "Hello!" }));
 }
 var container = document.getElementById("app");
 var root = (0, import_client.createRoot)(container);

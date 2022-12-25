@@ -1,13 +1,10 @@
 import styled from "styled-components";
 
 export const Appdiv = styled.div`
-    padding: 15px;
+    padding: 0;
     margin-right: auto;
     margin-left: auto;
-    border: 1px solid black;
-    max-width: 50%;
-    color: yellowgreen;
-    background-color: aqua;
+    max-width: 80%;
 
     h1 {
         color: red;

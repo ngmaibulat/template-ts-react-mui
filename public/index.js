@@ -2295,9 +2295,9 @@ var require_react_dom_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React4 = require_react();
+        var React5 = require_react();
         var Scheduler = require_scheduler();
-        var ReactSharedInternals = React4.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React5.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         var suppressWarning = false;
         function setSuppressWarning(newSuppressWarning) {
           {
@@ -3818,7 +3818,7 @@ var require_react_dom_development = __commonJS({
           {
             if (props.value == null) {
               if (typeof props.children === "object" && props.children !== null) {
-                React4.Children.forEach(props.children, function(child) {
+                React5.Children.forEach(props.children, function(child) {
                   if (child == null) {
                     return;
                   }
@@ -11979,7 +11979,7 @@ var require_react_dom_development = __commonJS({
           }
         }
         var fakeInternalInstance = {};
-        var emptyRefsObject = new React4.Component().refs;
+        var emptyRefsObject = new React5.Component().refs;
         var didWarnAboutStateAssignmentForComponent;
         var didWarnAboutUninitializedState;
         var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -23438,11 +23438,11 @@ var require_hoist_non_react_statics_cjs = __commonJS({
 });
 
 // src/index.tsx
-var import_react4 = __toESM(require_react(), 1);
+var import_react5 = __toESM(require_react(), 1);
 var import_client = __toESM(require_client(), 1);
 
 // src/app.tsx
-var import_react3 = __toESM(require_react(), 1);
+var import_react4 = __toESM(require_react(), 1);
 
 // node_modules/.pnpm/styled-components@5.3.6_7i5myeigehqah43i5u7wbekgba/node_modules/styled-components/dist/styled-components.browser.esm.js
 var import_react_is = __toESM(require_react_is());
@@ -24623,13 +24623,10 @@ var styled_components_browser_esm_default = He;
 
 // src/components/Appdiv.tsx
 var Appdiv = styled_components_browser_esm_default.div`
-    padding: 15px;
+    padding: 0;
     margin-right: auto;
     margin-left: auto;
-    border: 1px solid black;
-    max-width: 50%;
-    color: yellowgreen;
-    background-color: aqua;
+    max-width: 80%;
 
     h1 {
         color: red;
@@ -24645,15 +24642,75 @@ function Message(props) {
   return /* @__PURE__ */ import_react2.default.createElement("h3", null, props.msg);
 }
 
+// src/components/Menu.tsx
+var import_react3 = __toESM(require_react(), 1);
+
+// src/components/Nav.tsx
+var Nav = styled_components_browser_esm_default.nav`
+    min-width: 80%;
+    background-color: black;
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        color: white;
+        background-color: black;
+
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        padding: 10px 0px;
+        z-index: 1;
+    }
+
+    .dropdown-content li {
+        /* border-top: 1px solid gray; */
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    & {
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: left;
+            gap: 2rem;
+
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+
+            display: inline-block;
+            padding: 10px 10px;
+        }
+
+        a:hover {
+            color: red;
+            background-color: black;
+        }
+    }
+`;
+
+// src/components/Menu.tsx
+function Menu() {
+  return /* @__PURE__ */ import_react3.default.createElement(Nav, null, /* @__PURE__ */ import_react3.default.createElement("ul", null, /* @__PURE__ */ import_react3.default.createElement("li", null, /* @__PURE__ */ import_react3.default.createElement("a", { href: "/", id: "a-home" }, "Home")), /* @__PURE__ */ import_react3.default.createElement("li", null, /* @__PURE__ */ import_react3.default.createElement("a", { href: "/page1", id: "a-page1" }, "Contacts")), /* @__PURE__ */ import_react3.default.createElement("li", { className: "dropdown" }, /* @__PURE__ */ import_react3.default.createElement("a", { href: "/page2", id: "a-page2" }, "About"), /* @__PURE__ */ import_react3.default.createElement("ul", { className: "dropdown-content" }, /* @__PURE__ */ import_react3.default.createElement("li", null, /* @__PURE__ */ import_react3.default.createElement("a", { href: "/page3" }, "Team")), /* @__PURE__ */ import_react3.default.createElement("li", null, /* @__PURE__ */ import_react3.default.createElement("a", { href: "/page3" }, "Jobs"))))));
+}
+
 // src/app.tsx
 function App() {
-  return /* @__PURE__ */ import_react3.default.createElement(Appdiv, null, /* @__PURE__ */ import_react3.default.createElement("h1", null, "Hola!"), /* @__PURE__ */ import_react3.default.createElement("div", { className: "red" }, "gdhfgh"), /* @__PURE__ */ import_react3.default.createElement(Message, { msg: "Hello!" }));
+  return /* @__PURE__ */ import_react4.default.createElement(import_react4.default.Fragment, null, /* @__PURE__ */ import_react4.default.createElement(Menu, null), /* @__PURE__ */ import_react4.default.createElement(Appdiv, null, /* @__PURE__ */ import_react4.default.createElement(Message, { msg: "App Content" })));
 }
 
 // src/index.tsx
 var container = document.getElementById("app");
 var root = import_client.default.createRoot(container);
-root.render(/* @__PURE__ */ import_react4.default.createElement(App, null));
+root.render(/* @__PURE__ */ import_react5.default.createElement(App, null));
 /**
  * @license React
  * react-dom.development.js

@@ -23441,7 +23441,7 @@ var require_hoist_non_react_statics_cjs = __commonJS({
 var import_react4 = __toESM(require_react(), 1);
 var import_client = __toESM(require_client(), 1);
 
-// src/App.tsx
+// src/app.tsx
 var import_react3 = __toESM(require_react(), 1);
 
 // node_modules/.pnpm/styled-components@5.3.6_7i5myeigehqah43i5u7wbekgba/node_modules/styled-components/dist/styled-components.browser.esm.js
@@ -24645,7 +24645,7 @@ function Message(props) {
   return /* @__PURE__ */ import_react2.default.createElement("h3", null, props.msg);
 }
 
-// src/App.tsx
+// src/app.tsx
 function App() {
   return /* @__PURE__ */ import_react3.default.createElement(Appdiv, null, /* @__PURE__ */ import_react3.default.createElement("h1", null, "Hola!"), /* @__PURE__ */ import_react3.default.createElement("div", { className: "red" }, "gdhfgh"), /* @__PURE__ */ import_react3.default.createElement(Message, { msg: "Hello!" }));
 }

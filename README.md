@@ -7,16 +7,21 @@
 - React Router
 - React Query
 - ESBuild
+- PNPM as the recommended package manager
 
 ### Use
 
 #### Clone repo
 
 ```bash
-git clone https://github.com/ngmaibulat/template-ts-react-mui prjname
+mkdir project-01
+cd project-01
 
-cd prjname
+git clone https://github.com/ngmaibulat/template-ts-react-mui  .
+
 rm -rf .git
+pnpm install
+pnpm build
 ```
 
 #### Update metadata

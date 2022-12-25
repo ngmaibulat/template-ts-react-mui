@@ -36,6 +36,7 @@
     "dotenv": "^16.0.3",
     "esbuild": "^0.15.12",
     "prettier": "^2.7.1",
+    "react-is": "^18.2.0",
     "react-refresh": "^0.14.0",
     "servor": "^4.0.2"
   }

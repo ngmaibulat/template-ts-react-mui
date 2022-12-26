@@ -23,20 +23,6 @@ rm -rf .git
 npm run setup
 ```
 
-#### Optionally: Update metadata
-
-- update frontend/package.json metadata: name, author, etc
-
-#### Optionally: customize host, port
-
-- copy example.env to .env
-- edit .env to set host and port variables
-
-If you changed the host, make sure:
-
-- the host resolves correctly to your machine's ip (resolving to 127.0.0.1 would always work)
-- the certificate is issued to the host
-
 #### Prepare TLS certificates
 
 ```bash
@@ -62,21 +48,3 @@ pnpm run dev
 - not HTTP, use HTTPS
 - not 127.0.0.1, use localhost. as the tls cert is issued for `localhost`
 - livereload should work fine, edit your files and see results without manual reload
-
-### VSCode extensions
-
-- prettier: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
-- vscode-styled-components: https://marketplace.visualstudio.com/items?itemName=styled-components.vscode-styled-components
-
-### Build Docker Container
-
-```bash
-docker build . -t yourname/web
-docker images
-
-docker run -d -p 3000:3000 --name web01 yourname/web
-
-docker ps
-docker logs web01 -f
-docker stop web01
-```

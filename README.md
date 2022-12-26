@@ -45,6 +45,6 @@ pnpm run dev
 #### Browse
 
 - https://localhost:3000
-- not HTTP, use HTTPS
-- not 127.0.0.1, use localhost. as the tls cert is issued for `localhost`
-- livereload should work fine, edit your files and see results without manual reload
+- not `http`, use `https`
+- not `127.0.0.1`, use `localhost`. as the tls cert is issued for `localhost`
+- livereload should work fine `=>` edit your files and see results without manual reload

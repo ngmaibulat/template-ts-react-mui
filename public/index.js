@@ -24664,7 +24664,7 @@ var Dropdown = styled_components_browser_esm_default.div`
 `;
 
 // src/components/Menu.tsx
-var MenuDiv = styled_components_browser_esm_default.div`
+var MenuDiv = styled_components_browser_esm_default.section`
     min-height: 40px;
     flex-grow: 0;
 
@@ -24701,8 +24701,8 @@ function Menu() {
 
 // src/components/Main.tsx
 var import_react4 = __toESM(require_react(), 1);
-var MainStyled = styled_components_browser_esm_default.div`
-    background-color: lightblue;
+var MainStyled = styled_components_browser_esm_default.section`
+    background-color: #eee;
     flex-grow: 1;
 
     display: flex;
@@ -24716,7 +24716,7 @@ function Main() {
 
 // src/components/Footer.tsx
 var import_react5 = __toESM(require_react(), 1);
-var FooterDiv = styled_components_browser_esm_default.div`
+var FooterDiv = styled_components_browser_esm_default.section`
     background-color: lightgray;
     flex-grow: 0;
     max-height: 200px;

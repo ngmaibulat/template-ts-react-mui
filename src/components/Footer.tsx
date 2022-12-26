@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-export const FooterDiv = styled.div`
+export const FooterDiv = styled.section`
     background-color: lightgray;
     flex-grow: 0;
     max-height: 200px;

@@ -7,6 +7,7 @@
 - React Router
 - React Query
 - ESBuild
+- Ladle as the components catalog, (instead of StoryBook)
 - PNPM as the recommended package manager
 
 ### Use
@@ -45,6 +46,6 @@ pnpm run dev
 #### Browse
 
 - https://localhost:3000
-- not `http`, use `https`
-- not `127.0.0.1`, use `localhost`. as the tls cert is issued for `localhost`
+- use `https`, not `http`
+- not `127.0.0.1`, use `localhost`. as the tls cert would be issued by `fqdn`
 - livereload should work fine `=>` edit your files and see results without manual reload

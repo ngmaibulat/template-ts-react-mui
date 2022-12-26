@@ -23447,7 +23447,7 @@ var import_react6 = __toESM(require_react(), 1);
 // frontend/src/components/Menu.tsx
 var import_react3 = __toESM(require_react(), 1);
 
-// frontend/node_modules/.pnpm/styled-components@5.3.6_7i5myeigehqah43i5u7wbekgba/node_modules/styled-components/dist/styled-components.browser.esm.js
+// frontend/node_modules/.pnpm/styled-components@5.3.6_biqbaboplfbrettd7655fr4n2y/node_modules/styled-components/dist/styled-components.browser.esm.js
 var import_react_is = __toESM(require_react_is());
 var import_react = __toESM(require_react());
 var import_shallowequal = __toESM(require_shallowequal());
@@ -23991,7 +23991,7 @@ var unitlessKeys = {
 };
 var unitless_browser_esm_default = unitlessKeys;
 
-// frontend/node_modules/.pnpm/styled-components@5.3.6_7i5myeigehqah43i5u7wbekgba/node_modules/styled-components/dist/styled-components.browser.esm.js
+// frontend/node_modules/.pnpm/styled-components@5.3.6_biqbaboplfbrettd7655fr4n2y/node_modules/styled-components/dist/styled-components.browser.esm.js
 var import_is_prop_valid = __toESM(require_emotion_is_prop_valid_cjs());
 var import_hoist_non_react_statics = __toESM(require_hoist_non_react_statics_cjs());
 function v() {

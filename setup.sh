@@ -1,9 +1,13 @@
 #!/bin/bash
 
+# npx @teambit/bvm install
+
 pnpm install
-npx @teambit/bvm install
 
 cd frontend
+pnpm install
+
+cd ../catalog
 pnpm install
 
 cd ..

@@ -20,13 +20,12 @@ cd project-01
 git clone https://github.com/ngmaibulat/template-ts-react-mui  .
 
 rm -rf .git
-pnpm install
-pnpm build
+npm run setup
 ```
 
 #### Optionally: Update metadata
 
-- update package.json metadata: name, author, etc
+- update frontend/package.json metadata: name, author, etc
 
 #### Optionally: customize host, port
 

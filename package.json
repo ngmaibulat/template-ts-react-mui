@@ -7,7 +7,8 @@
   "scripts": {
     "build:watch": "esbuild frontend/src/index.tsx --bundle --outdir=frontend/public --format=esm --platform=browser --target=es2022 --watch",
     "build": "esbuild frontend/src/index.tsx --bundle --outdir=frontend/public --format=esm --platform=browser --target=es2022",
-    "dev": "node serve.js"
+    "dev": "node serve.js",
+    "setup": "bash setup.sh"
   },
   "devDependencies": {
     "esbuild": "^0.15.12",

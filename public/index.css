@@ -1,4 +1,14 @@
 /* src/css/global.css */
-.red {
-  background-color: beige;
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+#app {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
 }

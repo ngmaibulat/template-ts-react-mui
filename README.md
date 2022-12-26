@@ -9,10 +9,9 @@
 - ESBuild
 - Ladle as the components catalog, (instead of StoryBook)
 - PNPM as the recommended package manager
+- mkcert to generate TLS certificates
 
-### Use
-
-#### Clone repo
+### Clone repo
 
 ```bash
 mkdir project-01
@@ -24,7 +23,7 @@ rm -rf .git
 npm run setup
 ```
 
-#### Prepare TLS certificates
+### Prepare TLS certificates
 
 ```bash
 brew install mkcert
@@ -32,7 +31,7 @@ mkcert -install
 mkcert localhost  #mkcert otherhostname
 ```
 
-#### Start dev
+### Start Dev
 
 ```bash
 pnpm install
@@ -43,9 +42,9 @@ pnpm run build:watch
 pnpm run dev
 ```
 
-#### Browse
+### Browse
 
 - https://localhost:3000
 - use `https`, not `http`
-- not `127.0.0.1`, use `localhost`. as the tls cert would be issued by `fqdn`
+- use `localhost`, not `127.0.0.1`. As the tls cert would be issued by `fqdn`
 - livereload should work fine `=>` edit your files and see results without manual reload

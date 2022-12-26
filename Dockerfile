@@ -4,8 +4,8 @@ ENV NODE_ENV=production
 
 WORKDIR /app
 
-COPY package.json ./
-COPY public/* /app/public/
+COPY frontend/package.json ./
+COPY frontend/public/* /app/public/
 
 RUN npm install serve
 

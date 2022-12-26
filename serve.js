@@ -8,7 +8,7 @@ const port = parseInt(process.env.PORT || "3000");
 const host = process.env.HOST || "localhost";
 
 const options = {
-    root: "public",
+    root: "frontend/public",
     fallback: "index.html",
     module: false,
     static: false,

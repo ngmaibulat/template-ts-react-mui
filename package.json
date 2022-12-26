@@ -2,42 +2,17 @@
   "name": "template-ts-react-mui",
   "version": "0.0.1",
   "description": "Typescript/React application",
-  "main": "index.tsx",
+  "main": "frontend/src/index.tsx",
   "type": "module",
   "scripts": {
-    "format:check": "npx prettier src --check",
-    "format:fix": "npx prettier src --write",
-    "test": "node --test",
-    "build:watch": "esbuild src/index.tsx --bundle --outdir=public --format=esm --platform=browser --target=es2022 --watch",
-    "build": "esbuild src/index.tsx --bundle --outdir=public --format=esm --platform=browser --target=es2022",
-    "dev:esbuild": "esbuild src/index.tsx --bundle --outdir=public --format=esm --platform=browser --target=es2022  --serve=localhost:3000 --servedir=public",
-    "serve:esbuild": "esbuild --serve=localhost:3000 --servedir=public",
-    "dev": "node serve.js",
-    "serve": "node serve.js"
-  },
-  "keywords": [
-    "TS",
-    "React",
-    "MUI"
-  ],
-  "author": "",
-  "license": "MIT",
-  "dependencies": {
-    "@mui/styled-engine-sc": "^5.11.0",
-    "@mui/system": "^5.11.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "styled-components": "^5.3.6"
+    "build:watch": "esbuild frontend/src/index.tsx --bundle --outdir=frontend/public --format=esm --platform=browser --target=es2022 --watch",
+    "build": "esbuild frontend/src/index.tsx --bundle --outdir=frontend/public --format=esm --platform=browser --target=es2022",
+    "dev": "node serve.js"
   },
   "devDependencies": {
-    "@types/react": "^18.0.22",
-    "@types/react-dom": "^18.0.7",
-    "@types/styled-components": "^5.1.26",
-    "dotenv": "^16.0.3",
     "esbuild": "^0.15.12",
+    "dotenv": "^16.0.3",
     "prettier": "^2.7.1",
-    "react-is": "^18.2.0",
-    "react-refresh": "^0.14.0",
     "servor": "^4.0.2"
   }
 }

@@ -20,9 +20,9 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
   mod
 ));
 
-// node_modules/.pnpm/react@18.2.0/node_modules/react/cjs/react.development.js
+// frontend/node_modules/.pnpm/react@18.2.0/node_modules/react/cjs/react.development.js
 var require_react_development = __commonJS({
-  "node_modules/.pnpm/react@18.2.0/node_modules/react/cjs/react.development.js"(exports, module) {
+  "frontend/node_modules/.pnpm/react@18.2.0/node_modules/react/cjs/react.development.js"(exports, module) {
     "use strict";
     if (true) {
       (function() {
@@ -1811,9 +1811,9 @@ var require_react_development = __commonJS({
   }
 });
 
-// node_modules/.pnpm/react@18.2.0/node_modules/react/index.js
+// frontend/node_modules/.pnpm/react@18.2.0/node_modules/react/index.js
 var require_react = __commonJS({
-  "node_modules/.pnpm/react@18.2.0/node_modules/react/index.js"(exports, module) {
+  "frontend/node_modules/.pnpm/react@18.2.0/node_modules/react/index.js"(exports, module) {
     "use strict";
     if (false) {
       module.exports = null;
@@ -1823,9 +1823,9 @@ var require_react = __commonJS({
   }
 });
 
-// node_modules/.pnpm/scheduler@0.23.0/node_modules/scheduler/cjs/scheduler.development.js
+// frontend/node_modules/.pnpm/scheduler@0.23.0/node_modules/scheduler/cjs/scheduler.development.js
 var require_scheduler_development = __commonJS({
-  "node_modules/.pnpm/scheduler@0.23.0/node_modules/scheduler/cjs/scheduler.development.js"(exports) {
+  "frontend/node_modules/.pnpm/scheduler@0.23.0/node_modules/scheduler/cjs/scheduler.development.js"(exports) {
     "use strict";
     if (true) {
       (function() {
@@ -2273,9 +2273,9 @@ var require_scheduler_development = __commonJS({
   }
 });
 
-// node_modules/.pnpm/scheduler@0.23.0/node_modules/scheduler/index.js
+// frontend/node_modules/.pnpm/scheduler@0.23.0/node_modules/scheduler/index.js
 var require_scheduler = __commonJS({
-  "node_modules/.pnpm/scheduler@0.23.0/node_modules/scheduler/index.js"(exports, module) {
+  "frontend/node_modules/.pnpm/scheduler@0.23.0/node_modules/scheduler/index.js"(exports, module) {
     "use strict";
     if (false) {
       module.exports = null;
@@ -2285,9 +2285,9 @@ var require_scheduler = __commonJS({
   }
 });
 
-// node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom.development.js
+// frontend/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom.development.js
 var require_react_dom_development = __commonJS({
-  "node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom.development.js"(exports) {
+  "frontend/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/cjs/react-dom.development.js"(exports) {
     "use strict";
     if (true) {
       (function() {
@@ -22851,9 +22851,9 @@ var require_react_dom_development = __commonJS({
   }
 });
 
-// node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/index.js
+// frontend/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/index.js
 var require_react_dom = __commonJS({
-  "node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/index.js"(exports, module) {
+  "frontend/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/index.js"(exports, module) {
     "use strict";
     if (false) {
       checkDCE();
@@ -22864,9 +22864,9 @@ var require_react_dom = __commonJS({
   }
 });
 
-// node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/client.js
+// frontend/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/client.js
 var require_client = __commonJS({
-  "node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/client.js"(exports) {
+  "frontend/node_modules/.pnpm/react-dom@18.2.0_react@18.2.0/node_modules/react-dom/client.js"(exports) {
     "use strict";
     var m2 = require_react_dom();
     if (false) {
@@ -22895,9 +22895,9 @@ var require_client = __commonJS({
   }
 });
 
-// node_modules/.pnpm/react-is@18.2.0/node_modules/react-is/cjs/react-is.development.js
+// frontend/node_modules/.pnpm/react-is@18.2.0/node_modules/react-is/cjs/react-is.development.js
 var require_react_is_development = __commonJS({
-  "node_modules/.pnpm/react-is@18.2.0/node_modules/react-is/cjs/react-is.development.js"(exports) {
+  "frontend/node_modules/.pnpm/react-is@18.2.0/node_modules/react-is/cjs/react-is.development.js"(exports) {
     "use strict";
     if (true) {
       (function() {
@@ -23073,9 +23073,9 @@ var require_react_is_development = __commonJS({
   }
 });
 
-// node_modules/.pnpm/react-is@18.2.0/node_modules/react-is/index.js
+// frontend/node_modules/.pnpm/react-is@18.2.0/node_modules/react-is/index.js
 var require_react_is = __commonJS({
-  "node_modules/.pnpm/react-is@18.2.0/node_modules/react-is/index.js"(exports, module) {
+  "frontend/node_modules/.pnpm/react-is@18.2.0/node_modules/react-is/index.js"(exports, module) {
     "use strict";
     if (false) {
       module.exports = null;
@@ -23085,9 +23085,9 @@ var require_react_is = __commonJS({
   }
 });
 
-// node_modules/.pnpm/shallowequal@1.1.0/node_modules/shallowequal/index.js
+// frontend/node_modules/.pnpm/shallowequal@1.1.0/node_modules/shallowequal/index.js
 var require_shallowequal = __commonJS({
-  "node_modules/.pnpm/shallowequal@1.1.0/node_modules/shallowequal/index.js"(exports, module) {
+  "frontend/node_modules/.pnpm/shallowequal@1.1.0/node_modules/shallowequal/index.js"(exports, module) {
     module.exports = function shallowEqual(objA, objB, compare, compareContext) {
       var ret = compare ? compare.call(compareContext, objA, objB) : void 0;
       if (ret !== void 0) {
@@ -23122,9 +23122,9 @@ var require_shallowequal = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@emotion+memoize@0.8.0/node_modules/@emotion/memoize/dist/emotion-memoize.cjs.dev.js
+// frontend/node_modules/.pnpm/@emotion+memoize@0.8.0/node_modules/@emotion/memoize/dist/emotion-memoize.cjs.dev.js
 var require_emotion_memoize_cjs_dev = __commonJS({
-  "node_modules/.pnpm/@emotion+memoize@0.8.0/node_modules/@emotion/memoize/dist/emotion-memoize.cjs.dev.js"(exports) {
+  "frontend/node_modules/.pnpm/@emotion+memoize@0.8.0/node_modules/@emotion/memoize/dist/emotion-memoize.cjs.dev.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     function memoize(fn) {
@@ -23139,9 +23139,9 @@ var require_emotion_memoize_cjs_dev = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@emotion+memoize@0.8.0/node_modules/@emotion/memoize/dist/emotion-memoize.cjs.js
+// frontend/node_modules/.pnpm/@emotion+memoize@0.8.0/node_modules/@emotion/memoize/dist/emotion-memoize.cjs.js
 var require_emotion_memoize_cjs = __commonJS({
-  "node_modules/.pnpm/@emotion+memoize@0.8.0/node_modules/@emotion/memoize/dist/emotion-memoize.cjs.js"(exports, module) {
+  "frontend/node_modules/.pnpm/@emotion+memoize@0.8.0/node_modules/@emotion/memoize/dist/emotion-memoize.cjs.js"(exports, module) {
     "use strict";
     if (false) {
       module.exports = null;
@@ -23151,9 +23151,9 @@ var require_emotion_memoize_cjs = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@emotion+is-prop-valid@1.2.0/node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.cjs.dev.js
+// frontend/node_modules/.pnpm/@emotion+is-prop-valid@1.2.0/node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.cjs.dev.js
 var require_emotion_is_prop_valid_cjs_dev = __commonJS({
-  "node_modules/.pnpm/@emotion+is-prop-valid@1.2.0/node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.cjs.dev.js"(exports) {
+  "frontend/node_modules/.pnpm/@emotion+is-prop-valid@1.2.0/node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.cjs.dev.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var memoize = require_emotion_memoize_cjs();
@@ -23171,9 +23171,9 @@ var require_emotion_is_prop_valid_cjs_dev = __commonJS({
   }
 });
 
-// node_modules/.pnpm/@emotion+is-prop-valid@1.2.0/node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.cjs.js
+// frontend/node_modules/.pnpm/@emotion+is-prop-valid@1.2.0/node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.cjs.js
 var require_emotion_is_prop_valid_cjs = __commonJS({
-  "node_modules/.pnpm/@emotion+is-prop-valid@1.2.0/node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.cjs.js"(exports, module) {
+  "frontend/node_modules/.pnpm/@emotion+is-prop-valid@1.2.0/node_modules/@emotion/is-prop-valid/dist/emotion-is-prop-valid.cjs.js"(exports, module) {
     "use strict";
     if (false) {
       module.exports = null;
@@ -23183,9 +23183,9 @@ var require_emotion_is_prop_valid_cjs = __commonJS({
   }
 });
 
-// node_modules/.pnpm/react-is@16.13.1/node_modules/react-is/cjs/react-is.development.js
+// frontend/node_modules/.pnpm/react-is@16.13.1/node_modules/react-is/cjs/react-is.development.js
 var require_react_is_development2 = __commonJS({
-  "node_modules/.pnpm/react-is@16.13.1/node_modules/react-is/cjs/react-is.development.js"(exports) {
+  "frontend/node_modules/.pnpm/react-is@16.13.1/node_modules/react-is/cjs/react-is.development.js"(exports) {
     "use strict";
     if (true) {
       (function() {
@@ -23337,9 +23337,9 @@ var require_react_is_development2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/react-is@16.13.1/node_modules/react-is/index.js
+// frontend/node_modules/.pnpm/react-is@16.13.1/node_modules/react-is/index.js
 var require_react_is2 = __commonJS({
-  "node_modules/.pnpm/react-is@16.13.1/node_modules/react-is/index.js"(exports, module) {
+  "frontend/node_modules/.pnpm/react-is@16.13.1/node_modules/react-is/index.js"(exports, module) {
     "use strict";
     if (false) {
       module.exports = null;
@@ -23349,9 +23349,9 @@ var require_react_is2 = __commonJS({
   }
 });
 
-// node_modules/.pnpm/hoist-non-react-statics@3.3.2/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js
+// frontend/node_modules/.pnpm/hoist-non-react-statics@3.3.2/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js
 var require_hoist_non_react_statics_cjs = __commonJS({
-  "node_modules/.pnpm/hoist-non-react-statics@3.3.2/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js"(exports, module) {
+  "frontend/node_modules/.pnpm/hoist-non-react-statics@3.3.2/node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js"(exports, module) {
     "use strict";
     var reactIs = require_react_is2();
     var REACT_STATICS = {
@@ -23437,22 +23437,22 @@ var require_hoist_non_react_statics_cjs = __commonJS({
   }
 });
 
-// src/index.tsx
+// frontend/src/index.tsx
 var import_react7 = __toESM(require_react(), 1);
 var import_client = __toESM(require_client(), 1);
 
-// src/app.tsx
+// frontend/src/app.tsx
 var import_react6 = __toESM(require_react(), 1);
 
-// src/components/Menu.tsx
+// frontend/src/components/Menu.tsx
 var import_react3 = __toESM(require_react(), 1);
 
-// node_modules/.pnpm/styled-components@5.3.6_7i5myeigehqah43i5u7wbekgba/node_modules/styled-components/dist/styled-components.browser.esm.js
+// frontend/node_modules/.pnpm/styled-components@5.3.6_7i5myeigehqah43i5u7wbekgba/node_modules/styled-components/dist/styled-components.browser.esm.js
 var import_react_is = __toESM(require_react_is());
 var import_react = __toESM(require_react());
 var import_shallowequal = __toESM(require_shallowequal());
 
-// node_modules/.pnpm/@emotion+stylis@0.8.5/node_modules/@emotion/stylis/dist/stylis.browser.esm.js
+// frontend/node_modules/.pnpm/@emotion+stylis@0.8.5/node_modules/@emotion/stylis/dist/stylis.browser.esm.js
 function stylis_min(W2) {
   function M2(d2, c2, e2, h2, a2) {
     for (var m2 = 0, b2 = 0, v2 = 0, n2 = 0, q2, g2, x2 = 0, K2 = 0, k2, u2 = k2 = q2 = 0, l2 = 0, r2 = 0, I2 = 0, t2 = 0, B3 = e2.length, J2 = B3 - 1, y2, f = "", p = "", F3 = "", G3 = "", C; l2 < B3; ) {
@@ -23941,7 +23941,7 @@ function stylis_min(W2) {
 }
 var stylis_browser_esm_default = stylis_min;
 
-// node_modules/.pnpm/@emotion+unitless@0.7.5/node_modules/@emotion/unitless/dist/unitless.browser.esm.js
+// frontend/node_modules/.pnpm/@emotion+unitless@0.7.5/node_modules/@emotion/unitless/dist/unitless.browser.esm.js
 var unitlessKeys = {
   animationIterationCount: 1,
   borderImageOutset: 1,
@@ -23991,7 +23991,7 @@ var unitlessKeys = {
 };
 var unitless_browser_esm_default = unitlessKeys;
 
-// node_modules/.pnpm/styled-components@5.3.6_7i5myeigehqah43i5u7wbekgba/node_modules/styled-components/dist/styled-components.browser.esm.js
+// frontend/node_modules/.pnpm/styled-components@5.3.6_7i5myeigehqah43i5u7wbekgba/node_modules/styled-components/dist/styled-components.browser.esm.js
 var import_is_prop_valid = __toESM(require_emotion_is_prop_valid_cjs());
 var import_hoist_non_react_statics = __toESM(require_hoist_non_react_statics_cjs());
 function v() {
@@ -24624,13 +24624,13 @@ var Je = function() {
 "undefined" != typeof navigator && "ReactNative" === navigator.product && console.warn("It looks like you've imported 'styled-components' on React Native.\nPerhaps you're looking to import 'styled-components/native'?\nRead more about this at https://www.styled-components.com/docs/basics#react-native"), "undefined" != typeof window && (window["__styled-components-init__"] = window["__styled-components-init__"] || 0, 1 === window["__styled-components-init__"] && console.warn("It looks like there are several instances of 'styled-components' initialized in this application. This may cause dynamic styles to not render properly, errors during the rehydration process, a missing theme prop, and makes your application bigger without good reason.\n\nSee https://s-c.sh/2BAXzed for more info."), window["__styled-components-init__"] += 1);
 var styled_components_browser_esm_default = He;
 
-// src/components/MenuItem.tsx
+// frontend/src/components/MenuItem.tsx
 var import_react2 = __toESM(require_react(), 1);
 function MenuItem(props) {
   return /* @__PURE__ */ import_react2.default.createElement("div", null, /* @__PURE__ */ import_react2.default.createElement("a", { href: props.url }, props.name));
 }
 
-// src/components/Dropdown.tsx
+// frontend/src/components/Dropdown.tsx
 var Dropdown = styled_components_browser_esm_default.div`
     background-color: black;
 
@@ -24663,7 +24663,7 @@ var Dropdown = styled_components_browser_esm_default.div`
     }
 `;
 
-// src/components/Menu.tsx
+// frontend/src/components/Menu.tsx
 var MenuDiv = styled_components_browser_esm_default.section`
     min-height: 40px;
     flex-grow: 0;
@@ -24699,7 +24699,7 @@ function Menu() {
   return /* @__PURE__ */ import_react3.default.createElement(MenuDiv, null, /* @__PURE__ */ import_react3.default.createElement(MenuItem, { name: "Home", url: "/" }), /* @__PURE__ */ import_react3.default.createElement(MenuItem, { name: "Users", url: "/users" }), /* @__PURE__ */ import_react3.default.createElement(Dropdown, null, /* @__PURE__ */ import_react3.default.createElement("a", { href: "/groups" }, "Groups"), /* @__PURE__ */ import_react3.default.createElement("ul", { className: "dropdown-content" }, /* @__PURE__ */ import_react3.default.createElement("li", null, /* @__PURE__ */ import_react3.default.createElement("a", { href: "/page3" }, "Group1")), /* @__PURE__ */ import_react3.default.createElement("li", null, /* @__PURE__ */ import_react3.default.createElement("a", { href: "/page3" }, "Group2")))));
 }
 
-// src/components/Main.tsx
+// frontend/src/components/Main.tsx
 var import_react4 = __toESM(require_react(), 1);
 var MainStyled = styled_components_browser_esm_default.section`
     background-color: #eee;
@@ -24714,7 +24714,7 @@ function Main() {
   return /* @__PURE__ */ import_react4.default.createElement(MainStyled, null, "Main");
 }
 
-// src/components/Footer.tsx
+// frontend/src/components/Footer.tsx
 var import_react5 = __toESM(require_react(), 1);
 var FooterDiv = styled_components_browser_esm_default.section`
     background-color: lightgray;
@@ -24731,12 +24731,12 @@ function Footer() {
   return /* @__PURE__ */ import_react5.default.createElement(FooterDiv, null, /* @__PURE__ */ import_react5.default.createElement("div", null, "div1"), " ", /* @__PURE__ */ import_react5.default.createElement("div", null, "div2"), " ", /* @__PURE__ */ import_react5.default.createElement("div", null, "div3"));
 }
 
-// src/app.tsx
+// frontend/src/app.tsx
 function App() {
   return /* @__PURE__ */ import_react6.default.createElement(import_react6.default.Fragment, null, /* @__PURE__ */ import_react6.default.createElement(Menu, null), /* @__PURE__ */ import_react6.default.createElement(Main, null), /* @__PURE__ */ import_react6.default.createElement(Footer, null));
 }
 
-// src/index.tsx
+// frontend/src/index.tsx
 var container = document.getElementById("app");
 var root = import_client.default.createRoot(container);
 root.render(/* @__PURE__ */ import_react7.default.createElement(App, null));

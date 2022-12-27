@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { MenuItem } from "./MenuItem";
 import { Dropdown } from "./Dropdown";
 
-export const MenuDiv = styled.section`
+export const MenuDiv = styled.nav`
     min-height: 40px;
     flex-grow: 0;
 

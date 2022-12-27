@@ -14,6 +14,8 @@ export const Nav = styled.nav`
         box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
         padding: 10px 0px;
         z-index: 1;
+
+        border-radius: 3px;
     }
 
     .dropdown-content li {

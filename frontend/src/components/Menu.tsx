@@ -13,16 +13,30 @@ export const MenuDiv = styled.nav`
     flex-wrap: wrap;
     gap: 20px;
 
-    align-items: center;
+    align-items: stretch;
     justify-content: left;
     background-color: black;
 
+    @media only screen and (max-width: 400px) {
+        flex-direction: column;
+        gap: 0;
+
+        & {
+            div {
+                border-bottom: 1px solid gray;
+            }
+        }
+    }
+
     & {
         div {
-            /* min-width: 80px; */
             color: white;
             margin-left: 20px;
-            flex-basis: 80px;
+            padding: 10px;
+        }
+
+        div:hover {
+            background-color: #4a5667;
         }
 
         a {

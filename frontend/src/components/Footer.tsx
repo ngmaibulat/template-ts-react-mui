@@ -1,8 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
-export const FooterDiv = styled.section`
-    background-color: lightgray;
+export const FooterDiv = styled.footer`
+    background-color: #00000009;
+    border-top: 1px solid lightgray;
     display: flex;
 
     & div {

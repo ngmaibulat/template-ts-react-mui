@@ -24673,16 +24673,30 @@ var MenuDiv = styled_components_browser_esm_default.nav`
     flex-wrap: wrap;
     gap: 20px;
 
-    align-items: center;
+    align-items: stretch;
     justify-content: left;
     background-color: black;
 
+    @media only screen and (max-width: 400px) {
+        flex-direction: column;
+        gap: 0;
+
+        & {
+            div {
+                border-bottom: 1px solid gray;
+            }
+        }
+    }
+
     & {
         div {
-            /* min-width: 80px; */
             color: white;
             margin-left: 20px;
-            flex-basis: 80px;
+            padding: 10px;
+        }
+
+        div:hover {
+            background-color: #4a5667;
         }
 
         a {
@@ -24701,8 +24715,8 @@ function Menu() {
 
 // src/components/Main.tsx
 var import_react4 = __toESM(require_react(), 1);
-var MainStyled = styled_components_browser_esm_default.section`
-    background-color: #eee;
+var MainStyled = styled_components_browser_esm_default.main`
+    background-color: #ebedf4;
     flex-grow: 1;
 
     display: flex;
@@ -24716,8 +24730,9 @@ function Main() {
 
 // src/components/Footer.tsx
 var import_react5 = __toESM(require_react(), 1);
-var FooterDiv = styled_components_browser_esm_default.section`
-    background-color: lightgray;
+var FooterDiv = styled_components_browser_esm_default.footer`
+    background-color: #00000009;
+    border-top: 1px solid lightgray;
     display: flex;
 
     & div {

@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
-export const MainStyled = styled.section`
-    background-color: #eee;
+export const MainStyled = styled.main`
+    background-color: #ebedf4;
     flex-grow: 1;
 
     display: flex;

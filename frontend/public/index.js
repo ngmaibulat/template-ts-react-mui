@@ -24718,14 +24718,20 @@ function Main() {
 var import_react5 = __toESM(require_react(), 1);
 var FooterDiv = styled_components_browser_esm_default.section`
     background-color: lightgray;
-    flex-grow: 0;
-    max-height: 200px;
-    min-height: 100px;
-
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+
+    & div {
+        min-height: 100px;
+        max-height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+    }
+
+    @media only screen and (max-width: 600px) {
+        display: block;
+    }
 `;
 function Footer() {
   return /* @__PURE__ */ import_react5.default.createElement(FooterDiv, null, /* @__PURE__ */ import_react5.default.createElement("div", null, "div1"), " ", /* @__PURE__ */ import_react5.default.createElement("div", null, "div2"), " ", /* @__PURE__ */ import_react5.default.createElement("div", null, "div3"));

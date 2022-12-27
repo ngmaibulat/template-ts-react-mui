@@ -3,14 +3,20 @@ import styled from "styled-components";
 
 export const FooterDiv = styled.section`
     background-color: lightgray;
-    flex-grow: 0;
-    max-height: 200px;
-    min-height: 100px;
-
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+
+    & div {
+        min-height: 100px;
+        max-height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+    }
+
+    @media only screen and (max-width: 600px) {
+        display: block;
+    }
 `;
 
 export function Footer() {

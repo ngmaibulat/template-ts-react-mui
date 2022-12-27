@@ -1,7 +1,7 @@
 import React from "react";
 import { Nav } from "./Nav";
 
-export function Menu() {
+export function BasicMenu() {
     return (
         <Nav>
             <ul>

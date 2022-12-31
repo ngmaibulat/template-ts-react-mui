@@ -16,6 +16,12 @@ export const MenuDiv = styled.nav`
     align-items: stretch;
     justify-content: left;
     background-color: black;
+    font-family: sans-serif;
+    /* font-weight: bolder; */
+
+    @media print {
+        display: none;
+    }
 
     @media only screen and (max-width: 400px) {
         flex-direction: column;
@@ -59,14 +65,14 @@ export function Menu() {
             <Dropdown>
                 <a href="/groups">Groups</a>
 
-                <ul className="dropdown-content">
+                <menu className="dropdown-content">
                     <li>
                         <a href="/page3">Group1</a>
                     </li>
                     <li>
                         <a href="/page3">Group2</a>
                     </li>
-                </ul>
+                </menu>
             </Dropdown>
         </MenuDiv>
     );

@@ -24638,6 +24638,7 @@ var Dropdown = styled_components_browser_esm_default.div`
         display: none;
         position: absolute;
         color: white;
+        font-weight: lighter;
         background-color: black;
 
         min-width: 160px;
@@ -24676,6 +24677,12 @@ var MenuDiv = styled_components_browser_esm_default.nav`
     align-items: stretch;
     justify-content: left;
     background-color: black;
+    font-family: sans-serif;
+    /* font-weight: bolder; */
+
+    @media print {
+        display: none;
+    }
 
     @media only screen and (max-width: 400px) {
         flex-direction: column;
@@ -24710,7 +24717,7 @@ var MenuDiv = styled_components_browser_esm_default.nav`
     }
 `;
 function Menu() {
-  return /* @__PURE__ */ import_react3.default.createElement(MenuDiv, null, /* @__PURE__ */ import_react3.default.createElement(MenuItem, { name: "Home", url: "/" }), /* @__PURE__ */ import_react3.default.createElement(MenuItem, { name: "Users", url: "/users" }), /* @__PURE__ */ import_react3.default.createElement(Dropdown, null, /* @__PURE__ */ import_react3.default.createElement("a", { href: "/groups" }, "Groups"), /* @__PURE__ */ import_react3.default.createElement("ul", { className: "dropdown-content" }, /* @__PURE__ */ import_react3.default.createElement("li", null, /* @__PURE__ */ import_react3.default.createElement("a", { href: "/page3" }, "Group1")), /* @__PURE__ */ import_react3.default.createElement("li", null, /* @__PURE__ */ import_react3.default.createElement("a", { href: "/page3" }, "Group2")))));
+  return /* @__PURE__ */ import_react3.default.createElement(MenuDiv, null, /* @__PURE__ */ import_react3.default.createElement(MenuItem, { name: "Home", url: "/" }), /* @__PURE__ */ import_react3.default.createElement(MenuItem, { name: "Users", url: "/users" }), /* @__PURE__ */ import_react3.default.createElement(Dropdown, null, /* @__PURE__ */ import_react3.default.createElement("a", { href: "/groups" }, "Groups"), /* @__PURE__ */ import_react3.default.createElement("menu", { className: "dropdown-content" }, /* @__PURE__ */ import_react3.default.createElement("li", null, /* @__PURE__ */ import_react3.default.createElement("a", { href: "/page3" }, "Group1")), /* @__PURE__ */ import_react3.default.createElement("li", null, /* @__PURE__ */ import_react3.default.createElement("a", { href: "/page3" }, "Group2")))));
 }
 
 // src/components/Main.tsx
@@ -24746,6 +24753,10 @@ var FooterDiv = styled_components_browser_esm_default.footer`
 
     @media only screen and (max-width: 600px) {
         display: block;
+    }
+
+    @media print {
+        display: none;
     }
 `;
 function Footer() {

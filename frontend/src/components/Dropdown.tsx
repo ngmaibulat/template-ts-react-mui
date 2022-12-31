@@ -7,6 +7,7 @@ export const Dropdown = styled.div`
         display: none;
         position: absolute;
         color: white;
+        font-weight: lighter;
         background-color: black;
 
         min-width: 160px;

@@ -18,6 +18,10 @@ export const FooterDiv = styled.footer`
     @media only screen and (max-width: 600px) {
         display: block;
     }
+
+    @media print {
+        display: none;
+    }
 `;
 
 export function Footer() {

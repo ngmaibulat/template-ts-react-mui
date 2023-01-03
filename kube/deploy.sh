@@ -1,8 +1,7 @@
 
-
 kubectl apply -f kube/deploy.yaml
 
-kubectl apply -f kube/service.yaml
+kubectl apply -f kube/lb-service.yaml
 
 # kubectl run web01 --image=aibulat/web
 

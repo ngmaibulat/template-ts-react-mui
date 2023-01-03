@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: web-deployment
+    labels:
+        app: web
+spec:
+    selector:
+        matchLabels:
+            app: web
+    replicas: 1
+    strategy:
+        type: RollingUpdate
+    template:
+        metadata:
+            labels:
+                app: web
+        spec:
+            containers:
+                - name: web
+                  image: aibulat/web
+                  imagePullPolicy: Never
+                  ports:
+                      - containerPort: 3000
+            affinity:
+                podAntiAffinity:
+                    preferredDuringSchedulingIgnoredDuringExecution:
+                        - weight: 100
+                          podAffinityTerm:
+                              labelSelector:
+                                  matchExpressions:
+                                      - key: app
+                                        operator: In
+                                        values:
+                                            - web
+                              topologyKey: kubernetes.io/hostname

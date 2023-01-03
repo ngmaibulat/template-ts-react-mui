@@ -9,7 +9,9 @@
     "build": "esbuild frontend/src/index.tsx --bundle --outdir=frontend/public --format=esm --platform=browser --target=es2022",
     "dev": "node serve.js",
     "setup": "bash setup.sh",
-    "catalog": "cd catalog; npm run ladle"
+    "catalog": "cd catalog; npm run ladle",
+    "docker:build": "docker build . -t aibulat/web",
+    "kube:deploy": "bash kube/deploy.sh"
   },
   "devDependencies": {
     "esbuild": "^0.15.12",
